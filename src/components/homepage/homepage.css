@@ -33,6 +33,7 @@
   margin-bottom: 30px;
   background-color: #1d1e26;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
 }
 
 .container-home .container-content .back-color {
@@ -116,4 +117,95 @@
   height: 12px;
   border-radius: 50%;
   background-color: #50fa7b;
+}
+
+.container-home .container-content .container-console .container-ventanas {
+  position: absolute;
+  top: -1px;
+  left: 150px;
+  width: 100%;
+  height: 100%;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .container-ventanas
+  .ventana {
+  position: relative;
+  width: 180px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #3f3f3f;
+  border-top: none;
+  transition: 0.4s ease-in-out;
+  border-bottom: none;
+  display: inline-block;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .container-ventanas
+  .ventana
+  h6 {
+  position: absolute;
+  top: 13px;
+  left: 25px;
+  color: #ccc;
+  font-size: 0.8rem;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .container-ventanas
+  .ventana
+  i.ri-arrow-right-s-line {
+  position: absolute;
+  top: 10px;
+  font-size: 1.3rem;
+  color: #ccc;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .container-ventanas
+  .ventana
+  i.ri-close-line {
+  position: absolute;
+  top: 10px;
+  left: 150px;
+  font-size: 1.3rem;
+  color: #ccc;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .container-ventanas
+  .ventana:hover {
+  background-color: #3f3f3f;
+  transition: 0.4s ease-in-out;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .container-ventanas
+  .container-more {
+  position: absolute;
+  top: 10px;
+  left: 550px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .container-ventanas
+  .container-more
+  i {
+  color: #ccc;
+  font-size: 1.3rem;
 }
