@@ -1,0 +1,119 @@
+.container-home {
+  width: 100%;
+  height: 100vh;
+}
+
+.container-home .container-title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+}
+
+.container-home .container-title h1 {
+  color: #fff;
+  letter-spacing: 1.2px;
+}
+
+.container-home .container-title h1 span {
+  color: var(--gold);
+}
+
+.container-home .container-content .container-console {
+  position: absolute;
+  z-index: 2;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #13131a;
+  width: 75%;
+  height: 550px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  background-color: #1d1e26;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container-home .container-content .back-color {
+  position: absolute;
+  top: 320px;
+  right: 0;
+  bottom: 0;
+  left: 150px;
+  width: 80%;
+  height: 90%;
+  background-image: radial-gradient(
+    circle at 100%,
+    var(--cyan) 0%,
+    var(--orange) 40%,
+    var(--pink) 60%,
+    var(--green) 80%,
+    var(--purple) 100%
+  );
+  background-image: radial-gradient(ellipse at top, var(--cyan), var(--purple)),
+    radial-gradient(ellipse at bottom, var(--orange), var(--green));
+  background-image: radial-gradient(
+    circle at 100%,
+    var(--purple) 0%,
+    var(--cyan) 100%
+  );
+  filter: blur(90px) brightness(0.95);
+  z-index: 1;
+}
+
+.container-home .container-content .container-console .console .nav-console {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #3f3f3f;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .nav-console
+  .item {
+  margin-top: 15px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .nav-console
+  .item
+  .rojo {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #f55;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .nav-console
+  .item
+  .amarillo {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #f1fa8c;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .nav-console
+  .item
+  .verde {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #50fa7b;
+}

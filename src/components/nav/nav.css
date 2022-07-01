@@ -1,0 +1,48 @@
+.header-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header-container .nav-container .container-list {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.header-container .nav-container .container-list .list-nav li {
+  display: inline-block;
+  margin-left: 50px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.header-container .nav-container .container-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.header-container .nav-container .container-logo h6 {
+  position: relative;
+  top: -28px;
+  left: 52px;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.header-container .nav-container .container-logo .logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #ffe600;
+  box-shadow: 0 0 20px #ffe600;
+}
+
+.header-container .nav-container .container-logo .logo h6 {
+  position: relative;
+  top: 16px;
+  left: 18px;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
