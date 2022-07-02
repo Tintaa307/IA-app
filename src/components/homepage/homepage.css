@@ -209,3 +209,199 @@
   color: #ccc;
   font-size: 1.3rem;
 }
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content {
+  margin: 20px 40px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container {
+  position: relative;
+  padding: 8px 0;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container:nth-child(3)
+  pre {
+  padding-left: 20px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container:nth-child(4)
+  pre {
+  padding-left: 40px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container:nth-child(5)
+  pre {
+  padding-left: 20px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container:nth-child(8)
+  pre {
+  padding-left: 20px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container:nth-child(9)
+  pre {
+  padding-left: 40px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container:nth-child(10)
+  pre {
+  padding-left: 60px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container:nth-child(11)
+  pre {
+  padding-left: 60px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container:nth-child(12)
+  pre {
+  padding-left: 40px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container:nth-child(13)
+  pre {
+  padding-left: 20px;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container
+  pre
+  span {
+  font-size: 0.85rem;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container
+  pre
+  span.tipo {
+  color: var(--pink);
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container
+  pre
+  span.variable {
+  color: var(--green);
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container
+  pre
+  span.coma {
+  color: #ccc;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container
+  pre
+  span {
+  color: #ccc;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container
+  pre
+  span.parentesis {
+  color: var(--gold);
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container
+  pre
+  span.llaves {
+  color: var(--purple);
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .code-container
+  pre
+  span.item {
+  color: var(--cyan);
+}

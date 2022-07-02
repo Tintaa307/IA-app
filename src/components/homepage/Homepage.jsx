@@ -1,5 +1,6 @@
 import React from "react"
 import "./homepage.css"
+import CodeConsole from "./CodeConsole"
 
 const Homepage = () => {
   return (
@@ -44,6 +45,9 @@ const Homepage = () => {
                   <i class="ri-add-line"></i>
                 </div>
               </div>
+            </div>
+            <div className="container-console-content">
+              <CodeConsole />
             </div>
           </div>
         </div>
