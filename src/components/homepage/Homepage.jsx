@@ -1,6 +1,7 @@
 import React from "react"
 import "./homepage.css"
 import CodeConsole from "./CodeConsole"
+import { Link } from "react-router-dom"
 
 const Homepage = () => {
   return (
@@ -52,6 +53,12 @@ const Homepage = () => {
           </div>
         </div>
         <div className="back-color"></div>
+        <div className="container-test">
+          <Link to={"/calculate"} className="link">
+            <i class="ri-apple-fill"></i>
+            Download GymJs
+          </Link>
+        </div>
       </div>
     </main>
   )

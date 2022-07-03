@@ -504,7 +504,7 @@ const CodeConsole = () => {
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.7, delay: 6.1 }}
             className="tipo"
           >
             input
@@ -512,7 +512,7 @@ const CodeConsole = () => {
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.7, delay: 6.2 }}
             className="parentesis"
           >
             )
@@ -524,7 +524,7 @@ const CodeConsole = () => {
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.7, delay: 6.3 }}
             className="variable"
           >
             output:
@@ -532,7 +532,7 @@ const CodeConsole = () => {
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.7, delay: 6.4 }}
             className="item"
           >
             item
@@ -540,7 +540,7 @@ const CodeConsole = () => {
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.7, delay: 6.5 }}
             className="coma"
           >
             .
@@ -548,7 +548,7 @@ const CodeConsole = () => {
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.7, delay: 6.6 }}
             className="tipo"
           >
             output
@@ -560,7 +560,7 @@ const CodeConsole = () => {
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.7, delay: 6.7 }}
             className="llaves"
           >{`}`}</motion.span>
         </pre>
@@ -570,7 +570,7 @@ const CodeConsole = () => {
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.7, delay: 6.8 }}
             className="llaves"
           >{`})`}</motion.span>
         </pre>
@@ -580,7 +580,7 @@ const CodeConsole = () => {
           <motion.span
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.1 }}
+            transition={{ duration: 0.7, delay: 6.9 }}
             className="llaves"
           >{`}`}</motion.span>
         </pre>
