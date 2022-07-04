@@ -406,6 +406,42 @@
   color: var(--cyan);
 }
 
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content::after {
+  content: "";
+  position: absolute;
+  top: calc(0px + 40px);
+  left: 50%;
+  width: 0px;
+  height: 92.3%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .container-emoji {
+  position: absolute;
+  right: 17%;
+  top: 40%;
+}
+
+.container-home
+  .container-content
+  .container-console
+  .console
+  .container-console-content
+  .container-emoji
+  .emoji
+  span {
+  font-size: 7.5rem;
+}
+
 .container-home .container-content .container-test {
   position: absolute;
   top: 1000px;

@@ -48,7 +48,14 @@ const Homepage = () => {
               </div>
             </div>
             <div className="container-console-content">
-              <CodeConsole />
+              <div className="code-content">
+                <CodeConsole />
+              </div>
+              <div className="container-emoji">
+                <div className="emoji">
+                  <span>🤖</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
